@@ -2,27 +2,28 @@
 people = []
 
 # Define some people, and add them to the list.
-person = {'first_name': 'Kevin',
-          'last_name': 'brown',
-            'age': 55,            
-            'city':'sydney',
-          }
-
-people.append(person)
-
-person = {'first_name': 'Rebecca',
-    'last_name': 'jones', 
-    'age': 46, 
-    'city':'queenlands',
+person = {
+    'first_name': 'eric',
+    'last_name': 'matthes',
+    'age': 46,
+    'city': 'sitka',
     }
 people.append(person)
 
-person = {'first_name': 'chelse',
-          'last_name': 'green',
-            'age': 18, 
-            'city':'brisbrane',
-            }
+person = {
+    'first_name': 'lemmy',
+    'last_name': 'matthes',
+    'age': 2,
+    'city': 'sitka',
+    }
+people.append(person)
 
+person = {
+    'first_name': 'willie',
+    'last_name': 'matthes',
+    'age': 11,
+    'city': 'sitka',
+    }
 people.append(person)
 
 # Display all of the information in the dictionary.
@@ -31,4 +32,4 @@ for person in people:
     age = person['age']
     city = person['city'].title()
     
-         
+    print(f"{name}, of {city}, is {age} years old.")
